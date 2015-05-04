@@ -33,6 +33,7 @@ var TodoStore = Marty.createStore({
    * Create a TODO item.
    * @param  {string} text The content of the TODO
    */
+   
   create: function (text) {
     text = text.trim();
 
